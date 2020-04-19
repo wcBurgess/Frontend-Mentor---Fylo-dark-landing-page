@@ -1,0 +1,36 @@
+/* components/feature-cards.css */
+
+.feature-card {   
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    height: 100%;
+}
+
+.feature-img-box {
+    box-sizing: border-block;
+    width: 92px;
+    height: 89px;
+    margin: 0 auto;
+}
+
+.feature-icon {
+    vertical-align: top;
+}
+
+.feature-card-body {
+    align-self: center;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0;
+}
+
+.feature-card-title {
+    font-size: 24px;
+    padding-top: 1.25rem;
+}
+
+.feature-card-text {
+    font-weight: 400;
+}
+
