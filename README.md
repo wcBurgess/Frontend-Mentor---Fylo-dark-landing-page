@@ -3,7 +3,7 @@ Frontend Mentor - Fylo landing page with dark theme and features grid
 
 ------ What I used to complete this challenge ------ 
 # Created with HTML and Tailwind CSS 
-- Used postcss-import plugin to create custom components 
+- Used postcss-import plugin to create custom css components 
 - Used the tailwind.config.js to customize theme 
 
 
