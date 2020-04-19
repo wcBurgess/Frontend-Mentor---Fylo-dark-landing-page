@@ -19,6 +19,7 @@
 <body class="overflow-x-hidden">
     <!-- Nav Header -->
     <section class="w-full flex justify-center items-center lg:mx-auto" id="home">
+	    <h2 class="hidden">navbar</h2>
         <nav class="w-full h-20 bg-intro mt-14 xl:z-30 mb-0">
             <div class="w-full leading-loose">
                 <div class="container mx-auto p-4 flex justify-center items-center lg:pt-6">
@@ -247,7 +248,7 @@
                     <div class="flex flex-wrap justify-between items-center md:flex-row">
                         <div class="w-full py-3 inline-flex xl:w-auto lg:w-auto lg:mr-auto xl:mr-auto lg:my-auto xl:py-auto">
 			<label class="hidden" for="email" style="label {display:none;}">Email</label>
-                            <input class="form-input block" name="email" placeholder="email@example.com" type="email">
+                            <input class="form-input block" name="email"  aria-labelledby="email@example.com" placeholder="email@example.com" type="email">
                         </div>
                         <div class="w-full py-3 inline-flex xl:w-auto lg:w-auto lg:ml-auto xl:ml-auto lg:my-auto xl:py-auto lg:pl-4 xl:pl-4">
                             <button class="btn-signup block">Get Started For Free</button>
