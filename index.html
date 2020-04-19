@@ -17,6 +17,7 @@
 </head>
 
 <body class="overflow-x-hidden">
+<!--Nav Header -->	
     <section class="w-full flex justify-center items-center lg:mx-auto">
         <nav class="w-full h-20 bg-intro mt-14 xl:z-30 mb-0" role="navigation">
             <div class="w-full leading-loose">
@@ -26,13 +27,13 @@
                     </div>
                     <div class="ml-auto flex items-center ml-4 mb-2 text-sm md:text-base lg:text-base xl:text-lg md:flex-row md:mx-0 md:ml-auto md:mt-0 md:pt-0 xl:ml-3 xl:pt-8">
                         <div class="px-2 py-1 md:p-2 lg:px-4 xl:px-6">
-                            <a href="#" class="nav-link text-white hover:underline hover:text-cyan">Features</a>
+                            <a href="#features" class="nav-link text-white hover:underline hover:text-cyan">Features</a>
                         </div>
                         <div class="px-2 py-1 md:p-2 lg:px-4 xl:px-6">
-                            <a href="#" class="nav-link text-white hover:underline hover:text-cyan">Team</a>
+                            <a href="#testimonials" class="nav-link text-white hover:underline hover:text-cyan">Team</a>
                         </div>
                         <div class="px-2 py-1 md:p-2 lg:px-4 xl:px-6">
-                            <a href="#" class="nav-link text-white hover:underline hover:text-cyan">Sign In</a>
+                            <a href="#signup" class="nav-link text-white hover:underline hover:text-cyan">Sign In</a>
                         </div>
                     </div>    
                 </div>
@@ -40,7 +41,7 @@
         </nav>
     </section>
    
-    <!--Master Header with Intro Hero-->
+    <!--Masthead with Intro Hero-->
     <div class="w-full masthead bg-intro">
         <!--Hero Section-->
         <section class="hero relative w-full z-20">
@@ -230,7 +231,7 @@
         </section>
         
         <!--Bottom CTA-->
-        <section class="w-full grid bg-primary z-50 -mb-40">
+        <section class="w-full grid bg-primary z-50 -mb-40" id="signup>
             <div class="container mx-auto text-white">
                
                 <div class="flex w-11/12 lg:w-9/12 shadow xl:w-8/12 flex-col justify-center items-center mx-auto bg-intro rounded p-6">
@@ -243,7 +244,7 @@
                     </div>
                     <div class="flex flex-wrap justify-between items-center md:flex-row">
                         <div class="w-full py-3 inline-flex xl:w-auto lg:w-auto lg:mr-auto xl:mr-auto lg:my-auto xl:py-auto">
-                            <input class="form-input block" placeholder="email@example.com" type="email">
+                            <input class="form-input block" name="email" placeholder="email@example.com" type="email">
                         </div>
                         <div class="w-full py-3 inline-flex xl:w-auto lg:w-auto lg:ml-auto xl:ml-auto lg:my-auto xl:py-auto lg:pl-4 xl:pl-4">
                             <button class="btn-signup block">Get Started For Free</button>
